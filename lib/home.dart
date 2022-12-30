@@ -74,7 +74,7 @@ class _CalcultorState extends State<Calcultor> {
                   margin: EdgeInsets.only(right: 20, left: 20),
                   alignment: Alignment.topRight,
                   height: 2,
-                  color: Colors.black,
+                  color: Colors.white,
                 ),
               ],
             ),
@@ -94,7 +94,7 @@ class _CalcultorState extends State<Calcultor> {
                             child: Text(
                               "AC",
                               style: TextStyle(
-                                  color: Colors.white,
+                                  color: Colors.blue,
                                   letterSpacing: 3,
                                   fontSize: 30
                               ),
@@ -102,7 +102,7 @@ class _CalcultorState extends State<Calcultor> {
                             height: 100,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(20) ,
-                              color: Colors.redAccent,
+                              color: Colors.amberAccent,
                             ),
                           ),
                           onTap: () {
@@ -144,7 +144,7 @@ class _CalcultorState extends State<Calcultor> {
                             child: Text(
                               "/",
                               style: TextStyle(
-                                  color: Colors.red,
+                                  color: Colors.amber,
                                   fontSize: 30,
                                   fontWeight: FontWeight.bold),
                             ),
@@ -234,7 +234,7 @@ class _CalcultorState extends State<Calcultor> {
                             child: Text(
                               "*",
                               style: TextStyle(
-                                  color: Colors.red,
+                                  color: Colors.amber,
                                   fontSize: 30,
                                   fontWeight: FontWeight.bold),
                             ),
@@ -324,7 +324,7 @@ class _CalcultorState extends State<Calcultor> {
                             child: Text(
                               "+",
                               style: TextStyle(
-                                  color: Colors.red,
+                                  color: Colors.amber,
                                   fontSize: 30,
                                   fontWeight: FontWeight.bold),
                             ),
@@ -414,7 +414,7 @@ class _CalcultorState extends State<Calcultor> {
                             child: Text(
                               "-",
                               style: TextStyle(
-                                  color: Colors.red,
+                                  color: Colors.amber,
                                   fontSize: 30,
                                   fontWeight: FontWeight.bold),
                             ),
@@ -509,7 +509,7 @@ class _CalcultorState extends State<Calcultor> {
                             ),
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20),
-                                color: Colors.red,
+                                color: Colors.amber,
                                 border: Border.all(color: Colors.black)),
                           ),
                           onTap: () {
